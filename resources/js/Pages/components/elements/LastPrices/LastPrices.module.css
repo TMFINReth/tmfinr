@@ -1,0 +1,13 @@
+.contentMover {
+    color: white;
+    animation: contentMover 40s linear infinite;
+    width: 100%;
+  }
+@keyframes contentMover {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
